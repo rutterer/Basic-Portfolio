@@ -61,6 +61,9 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     border-top: 6px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .headstuff {
