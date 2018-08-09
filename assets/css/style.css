@@ -61,7 +61,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     border-top: 6px solid #4aaaa5;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -79,9 +79,13 @@ footer {
     margin-top: 50px;
     border: 2px solid #dddddd;
    /*  padding: 20px; */
-
-
 }
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 a:link, a:visited {
     color: #777777;
@@ -177,4 +181,27 @@ select{
 }
 .form-style-1 .required{
     color:red;
+}
+
+.portitem {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    float: left;
+    
+}
+
+.porttext {
+    position: absolute;
+    width: 90%;
+    bottom: 20%;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.row {
+    width: 70%;
 }
